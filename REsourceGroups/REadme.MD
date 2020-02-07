@@ -1,6 +1,6 @@
 # AzureTemplates
 
 
-<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fgithub.com%2FZubairAG%2FSNDv0.1%2Fblob%2Fmaster%2Fuksouth%2Fazuredeploy.json" target="_blank">
+<a href="https%3A%2F%2Fgithub.com%2FZubairAG%2FAzureTemplates%2Fblob%2Fmaster%2FREsourceGroups%2FAzuredeploy.JSON" target="_blank">
 <img src="https://aka.ms/deploytoazurebutton"/>
 </a>
