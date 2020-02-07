@@ -1,0 +1,33 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2018-05-01/subscriptionDeploymentTemplate.json#",
+  "contentVersion": "1.0.0.1",
+  "metadata": {
+    "comments": "This template was developed to deploy SMBC UK South Resource Groups.",
+    "author": "Agilisys (Zubair Rahman)"
+  },
+    "parameters": {
+    "rgName": {
+      "type": "string",
+    "defaultValue": "Standard_LRS03"
+    
+    },
+    "rgLocation": {
+      "type": "string",
+      "defaultValue":"uksouth"
+    }
+  },
+  "variables": {},
+  "resources": [
+    {
+      "type": "Microsoft.Resources/resourceGroups",
+      "apiVersion": "2018-05-01",
+      "name": "[parameters('rgName')]",
+      "location": "[parameters('rgLocation')]",
+      "properties": {}
+    }
+  ],
+  
+  "outputs": {}
+}
+
+
